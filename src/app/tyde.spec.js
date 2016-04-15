@@ -1,15 +1,15 @@
-import app from './app';
+import app from './tyde';
 
 describe('app', () => {
 
-  describe('AppCtrl', () => {
+  describe('AppController', () => {
     let ctrl;
 
     beforeEach(() => {
       angular.mock.module(app);
 
       angular.mock.inject(($controller) => {
-        ctrl = $controller('AppCtrl', {});
+        ctrl = $controller('AppController', {});
       });
     });
 
