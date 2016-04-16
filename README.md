@@ -1,6 +1,6 @@
 # Tyde [angular-webpack]
 
-[![Dependency Status](https://david-dm.org/Naquaduh/Tyde.svg)](https://david-dm.org/Naquaduh/Tyde.svg#info=dependencies) [![devDependency Status](https://david-dm.org/Naquaduh/Tyde.svg/dev-status.svg)](https://david-dm.org/Naquaduh/Tyde.svg#info=devDependencies)
+[![Dependency Status](https://david-dm.org/Naquaduh/Tyde.svg)](https://david-dm.org/Naquaduh/Tyde.svg#info=dependencies) [![devDependency Status](https://david-dm.org/Naquaduh/Tyde/dev-status.svg)](https://david-dm.org/Naquaduh/Tyde/dev-status.svg#info=devDependencies)
 
 
 
