@@ -1,6 +1,6 @@
 # Tyde [angular-webpack]
 
-[![Dependency Status](https://david-dm.org/preboot/angular-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-webpack/dev-status.svg)](https://david-dm.org/preboot/angular-webpack#info=devDependencies)
+[![Dependency Status](https://david-dm.org/Naquaduh/Tyde.svg)](https://david-dm.org/Naquaduh/Tyde.svg#info=dependencies) [![devDependency Status](https://david-dm.org/Naquaduh/Tyde.svg/dev-status.svg)](https://david-dm.org/Naquaduh/Tyde.svg#info=devDependencies)
 
 
 
@@ -10,6 +10,7 @@ This workflow serves as a starting point for building Angular 1.x applications u
 
 * Heavily commented webpack configuration with reasonable defaults.
 * ES6 support with babel.
+* Bootstrap 3 using SCSS
 * Source maps included in all builds.
 * Development server with live reload.
 * Production builds with cache busting.
@@ -24,7 +25,7 @@ This workflow serves as a starting point for building Angular 1.x applications u
 
 ```bash
 # clone our repo
-$ git clone https://github.com/.git my-app
+$ git clone https://github.com/Naquaduh/Tyde.git my-app
 
 # change directory to your app
 $ cd my-app
