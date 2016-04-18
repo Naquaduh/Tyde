@@ -1,6 +1,6 @@
 export class HomeController {
 	constructor() {
-		this._url = 'https://github.com/preboot/angular-webpack';
+		this._url = 'https://github.com/Naquaduh/Tyde';
 	}
 	
 	get url() {

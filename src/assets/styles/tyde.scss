@@ -1,0 +1,16 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap";
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+nav .navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

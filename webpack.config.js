@@ -68,7 +68,7 @@ module.exports = {
 	cache: isProd,
 	debug: !isProd,
 	plugins: plugins,
-	devtool: isProd ? '#cheap-module-source-map' : 'eval',
+	devtool: isProd ? '#cheap-module-source-map' : '#cheap-module-eval-source-map',
 	entry: isTest ? {} : { tyde: './src/app/tyde', vendor: ['angular', 'jquery', 'bootstrap'] },
 	output: {
 		path: __dirname + '/dist',
