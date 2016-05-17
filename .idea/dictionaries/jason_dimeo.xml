@@ -2,8 +2,12 @@
   <dictionary name="jason.dimeo">
     <words>
       <w>autoprefixer</w>
+      <w>chunkhash</w>
       <w>dimeo</w>
+      <w>github</w>
       <w>mimetype</w>
+      <w>pathinfo</w>
+      <w>pngquant</w>
       <w>postcss</w>
       <w>scss</w>
       <w>tyde</w>

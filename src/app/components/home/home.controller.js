@@ -1,5 +1,6 @@
 export class HomeController {
-	constructor() {
+	constructor($scope, $log) {
+		$log.debug($scope);
 		this._url = 'https://github.com/Naquaduh/Tyde';
 	}
 	

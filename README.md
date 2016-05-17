@@ -9,12 +9,14 @@ A complete, yet simple, starter for Angular and Bootstrap using Webpack.
 This workflow serves as a starting point for building Angular 1.x applications using Webpack. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
 
 * Heavily commented webpack configuration with reasonable defaults.
-* ES6 support with babel.
-* Bootstrap 3 using SCSS
-* Source maps included in all builds.
-* Development server with live reload.
+* [AngularJS](https://angularjs.org/) Application.
+* [ES6](http://www.ecma-international.org/ecma-262/6.0/) support with [babel](http://babeljs.io/).
+* [Bootstrap](http://getbootstrap.com/) 3 using [Sass](http://sass-lang.com/).
+* Lazy loading of AngularJS modules using [ocLazyLoad](https://oclazyload.readme.io/).
+* Image optimization using webpack image-loader.
+* Source maps included in all builds. CSS Source maps are omitted from development build for performance concerns.
+* Development server with hot module reload.
 * Production builds with cache busting.
-* Testing environment using karma to run tests and jasmine as the framework.
 * No gulp and no grunt, just npm scripts.
 
 >Warning: Make sure you're using the latest version of Node.js and NPM
@@ -37,7 +39,7 @@ $ npm install
 $ npm start
 ```
 
-go to [http://localhost:8080](http://localhost:8080) in your browser.
+go to [http://localhost:8080/](http://localhost:8080) in your browser.
 
 # Table of Contents
 
@@ -77,7 +79,7 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 ### Build files
 
 * single run: `npm run build`
-* build files and watch: `npm run watch`
+* build files and run serve: `npm run server`
 
 # License
 

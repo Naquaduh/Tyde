@@ -1,20 +1,20 @@
-import app from './tyde';
+import tyde_home from './components/home/home.module';
 
-describe('app', () => {
+describe('tyde', () => {
 
-  describe('AppController', () => {
-    let ctrl;
+  describe('home.controller', () => {
+    let controller;
 
     beforeEach(() => {
-      angular.mock.module(app);
+      angular.mock.module(tyde_home);
 
       angular.mock.inject(($controller) => {
-        ctrl = $controller('AppController', {});
+        controller = $controller('home.controller', {});
       });
     });
 
     it('should contain the starter url', () => {
-      expect(ctrl.url).toBe('https://github.com/preboot/angular-webpack');
+      expect(controller.url).toBe('https://github.com/Naquaduh/Tyde');
     });
   });
 });
