@@ -23,6 +23,7 @@ var appDirectory = path.join(__dirname, 'src');
 var plugins = [
 	// Prefetch long module build chains
 	new webpack.PrefetchPlugin('./src/app/shared/services/state.service.js'),
+	new webpack.PrefetchPlugin('./node_modules/core-js/library/modules/_object-dp.js'),
 	new webpack.PrefetchPlugin('./node_modules/core-js/library/fn/object/define-property.js'),
 	new webpack.PrefetchPlugin('./node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff'),
 	new webpack.PrefetchPlugin('./node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2'),
@@ -30,7 +31,6 @@ var plugins = [
 	new webpack.PrefetchPlugin('./node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg'),
 	new webpack.PrefetchPlugin('./node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf'),
 	new webpack.PrefetchPlugin('./src/assets/styles/tyde.scss'),
-	new webpack.ProvidePlugin({ $: 'jquery', jQuery: 'jquery' }),
 	new HtmlWebpackPlugin({ template: './src/index.html', inject: true })
 ];
 

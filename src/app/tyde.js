@@ -2,7 +2,7 @@ import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import uiBootstrap from 'angular-ui-bootstrap';
 import ocLazyLoad from 'oclazyload';
-import {StateService} from './shared/services/state.service.js';
+import {StateService} from './shared/services/state.service';
 import '../assets/styles/tyde.scss';
 
 export default angular.module('tyde', [ocLazyLoad, uiRouter, uiBootstrap]).config(($stateProvider, $urlRouterProvider, $locationProvider) => {

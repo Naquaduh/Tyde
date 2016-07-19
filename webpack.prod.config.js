@@ -50,7 +50,7 @@ var plugins = [
 		useSourceUrl: true,
 		generateSourceMaps: true,
 		output: { comments: false },
-		mangle: {	except: ['$', 'exports', 'require', '$q', '$ocLazyLoad'] },
+		mangle: {	except: ['exports', 'require', '$q', '$ocLazyLoad'] },
 		compress: {
 			warnings: false,
 			properties: true,
